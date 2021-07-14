@@ -1,14 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:recipeapp/models/categories.dart';
+import '../screens/categories_meals_screen.dart';
 
 class CategoryItem extends StatelessWidget {
   final Category category;
   const CategoryItem(this.category);
 
+  void _selectedCategory(BuildContext context) {
+    Navigator.of(context).push(
+      MaterialPageRoute(builder: (_) {
+        return CategoriesMealsScreen();
+      }),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () {},
+      onTap: () => _selectedCategory(context),
       borderRadius: BorderRadius.circular(15),
       child: Container(
         padding: const EdgeInsets.all(15),
