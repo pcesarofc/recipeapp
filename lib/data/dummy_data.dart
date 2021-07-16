@@ -55,7 +55,7 @@ List<Category> DUMMY_CATEGORIES = [
   ),
 ];
 
- List<Meal> DUMMY_MEALS = [
+List<Meal> DUMMY_MEALS = [
   Meal(
     id: 'm1',
     categories: ['c1', 'c2'],

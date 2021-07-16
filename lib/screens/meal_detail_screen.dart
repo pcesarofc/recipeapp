@@ -12,7 +12,7 @@ class MealDetailScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text(meal.title),
       ),
-      body: Text('Receita'),
+      body: const Text('Receita'),
     );
   }
 }
