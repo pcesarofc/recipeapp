@@ -52,7 +52,7 @@ class Meal {
       case Complexity.Difficult:
         return 'Difícil';
       default:
-      return 'Desconhecida';
+        return 'Desconhecida';
     }
   }
 
@@ -65,7 +65,7 @@ class Meal {
       case Cost.Expensive:
         return 'Caro';
       default:
-      return 'Desconhecida';
+        return 'Desconhecida';
     }
   }
 }
