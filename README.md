@@ -1,6 +1,7 @@
 # recipeapp
 
-A new Flutter project.
+Este aplicativos de receitas está sendo desenvolvido junto ao curso Aprenda Flutter e Desenvolva Apps para Androis e IOS.
+A ideia desse projeto é aplicar e utilizar a navegação entre diferentes telas em uma aplicação útil.
 
 ## Getting Started
 
